@@ -2,6 +2,8 @@
 
 ## 简短推荐
 
+产品主页与 25 秒视频：https://shanghaiyangming.github.io/lighttranslate/
+
 我把自己用 Codex 开发的 Windows 翻译工具「轻译」开源了：选中文字，按 Ctrl+Alt+Q，中文译文就出现在鼠标旁；英文单词和短语还可以看音标、用法、例句和词源。无需反复复制到聊天窗口。
 
 提供 Windows 安装包和完整源码，MIT 许可。填入自己的 DeepSeek API Key 即可开始，API 用量由自己的账号承担。

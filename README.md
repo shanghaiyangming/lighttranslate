@@ -3,6 +3,7 @@
 <h1 align="center">轻译 · LightTranslate</h1>
 <p align="center">选中文字，按一下快捷键。翻译就出现在鼠标旁。</p>
 <p align="center">
+  <a href="https://shanghaiyangming.github.io/lighttranslate/">产品主页与视频</a> ·
   <a href="https://github.com/shanghaiyangming/lighttranslate/releases/latest">下载 Windows 版</a> ·
   <a href="docs/USAGE.md">使用指南</a> ·
   <a href="docs/README.en.md">English</a> ·
