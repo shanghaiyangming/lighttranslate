@@ -1,0 +1,25 @@
+name: Windows build and self-test
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit source files
+        run: node scripts/audit-secrets.cjs .
+      - name: Compile and run isolated self-tests
+        shell: powershell
+        run: .\build.ps1 -Test
+      - name: Audit compiled executable
+        run: node scripts/audit-secrets.cjs dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LightTranslate-windows-x64
+          path: dist/LightTranslate.exe
+          if-no-files-found: error

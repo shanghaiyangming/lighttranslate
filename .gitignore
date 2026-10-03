@@ -1,0 +1,28 @@
+# Build outputs and local diagnostic reports
+/dist/
+/build/
+*.exe
+*.pdb
+*.log
+*.tmp
+自检结果.txt
+接口验证.txt
+边界测试结果.txt
+快捷键验证.txt
+
+# User configuration and secrets
+.env
+.env.*
+!.env.example
+settings.json
+settings_store.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Editor / OS files
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
