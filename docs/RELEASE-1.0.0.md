@@ -16,6 +16,10 @@
 
 ## 首次使用
 
+[25 秒演示视频](https://github.com/shanghaiyangming/lighttranslate/releases/download/v1.0.0/LightTranslate-demo-25s.mp4) · [截图与演示说明](https://github.com/shanghaiyangming/lighttranslate/blob/main/docs/DEMO.md)
+
+演示画面来自实际程序，选区步骤为场景示意，响应来自本地模拟接口，不代表真实 API 速度。
+
 启动后填入自己的 DeepSeek API Key，默认接口 `https://api.deepseek.com`、模型 `deepseek-flash`，保存后即可使用。API 账号需有可用额度，服务商按实际用量计费；软件本身免费。
 
 ## 主要功能

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>轻译 LightTranslate — Windows 划词翻译与英语查词</title>
+<meta name="description" content="轻译是 MIT 开源的 Windows 划词翻译与英语查词工具。选中文字，按 Ctrl+Alt+Q，在鼠标旁查看中文译文。提供安装包，使用自己的 DeepSeek API Key。">
+<meta property="og:title" content="轻译 — 选中文字，翻译就在鼠标旁。">
+<meta property="og:description" content="MIT 开源的 Windows 划词翻译与英语查词工具，支持 DeepSeek。">
+<meta property="og:image" content="https://shanghaiyangming.github.io/lighttranslate/media/translation-demo.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="https://raw.githubusercontent.com/shanghaiyangming/lighttranslate/main/assets/LightTranslate.svg">
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;color:#14233d;background:#f3f6fc}*{box-sizing:border-box}body{margin:0}a{color:#2563eb}header,main,footer{max-width:1100px;margin:auto;padding:26px}nav{display:flex;justify-content:space-between;align-items:center}nav strong{font-size:23px}.hero{padding:44px 0 30px}h1{font-size:clamp(36px,6vw,60px);line-height:1.2;margin:12px 0 22px;letter-spacing:-1px}h2{font-size:28px}.lead{font-size:21px;line-height:1.8;color:#52647f;max-width:800px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin:27px 0}.button{display:inline-block;padding:14px 22px;border-radius:10px;background:#2563eb;color:white;text-decoration:none;font-weight:600}.secondary{background:white;color:#2563eb;border:1px solid #cfdaec}.label{color:#2563eb;font-weight:600}video,img{width:100%;height:auto;border-radius:16px;border:1px solid #d8e2f0;background:white}.note{font-size:14px;color:#64748b;line-height:1.8}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:30px 0}.card{padding:25px;background:white;border:1px solid #dae3f0;border-radius:15px}.card h3{margin-top:0}.card p,li{line-height:1.8;color:#52647f}section{padding:22px 0}code{background:#e5ecf7;padding:3px 6px;border-radius:4px}footer{color:#64748b;font-size:14px;border-top:1px solid #dae3f0;line-height:1.8}@media(max-width:720px){.grid{grid-template-columns:1fr}header,main,footer{padding:20px}.hero{padding-top:20px}}
+</style>
+</head>
+<body>
+<header><nav><strong>轻译 · LightTranslate</strong><a href="https://github.com/shanghaiyangming/lighttranslate">GitHub 源码 ↗</a></nav></header>
+<main>
+<div class="hero"><span class="label">Windows 小工具 · MIT 开源</span><h1>选中文字，<br>翻译就在鼠标旁。</h1><p class="lead">阅读英文网页或技术文档时，按一下 <strong>Ctrl+Alt+Q</strong>，查看流式中文译文。英文单词和短语，也能在同一个浮窗里查音标、含义和例句。</p>
+<div class="actions"><a class="button" href="https://github.com/shanghaiyangming/lighttranslate/releases/download/v1.0.0/LightTranslate-Setup-1.0.0-windows-x64.exe">下载 Windows 安装版</a><a class="button secondary" href="https://github.com/shanghaiyangming/lighttranslate/releases/latest">便携版与全部下载</a></div>
+<p class="note">Windows 10/11 x64 · .NET Framework 4.8 · 软件免费，使用自己的 DeepSeek API Key，API 按实际用量计费。</p></div>
+<section><h2>25 秒，看看它怎么用</h2><video controls playsinline preload="metadata" poster="media/translation-demo.png"><source src="media/LightTranslate-demo-25s.mp4" type="video/mp4">请<a href="media/LightTranslate-demo-25s.mp4">下载演示视频</a>。</video><p class="note">浮窗采集自实际程序；选区步骤为场景示意，响应来自本地模拟接口，不是 DeepSeek 速度实测。<a href="https://github.com/shanghaiyangming/lighttranslate/blob/main/docs/DEMO.md">制作说明</a></p></section>
+<div class="grid"><article class="card"><h3>少一点来回切换</h3><p>全局快捷键、鼠标旁浮窗、流式显示，支持复制、停止、重试和手动粘贴。</p></article><article class="card"><h3>翻译，也能查词</h3><p>长文本默认译成中文；短英语候选提供 IPA、释义、用法、例句及词源。</p></article><article class="card"><h3>用自己的 Key</h3><p>密钥由 Windows 当前用户加密保存在本机；原文直接发给你设置的 API 服务商。</p></article></div>
+<section><h2>第一次使用，三步开始</h2><ol><li>下载安装版，或运行便携 EXE。</li><li>首次设置填入自己的 DeepSeek API Key，保留 <code>https://api.deepseek.com</code> 和 <code>deepseek-flash</code>。</li><li>在支持复制的应用中选中文字，按 <code>Ctrl+Alt+Q</code> 后松开。</li></ol><p><a href="https://github.com/shanghaiyangming/lighttranslate/blob/main/docs/USAGE.md">完整使用指南与常见问题 ↗</a></p></section>
+<section><h2>英语短语查词</h2><img src="media/dictionary-demo.png" alt="轻译在真实浮窗里显示英语短语 business incubator 的音标、中文含义和例句" loading="lazy"><p class="note">查词内容由模型生成，音标和词源可能不准确。本工具不支持图片 OCR。</p></section>
+<section><h2>欢迎试用，也欢迎一起改进</h2><p class="lead">完整 C# 源码、图标与安装包配置均以 MIT 许可证开放。喜欢的话，欢迎 Star、分享项目，或反馈使用建议。</p><div class="actions"><a class="button" href="https://github.com/shanghaiyangming/lighttranslate">查看源码 / Star</a><a class="button secondary" href="https://github.com/shanghaiyangming/lighttranslate/issues">反馈问题</a></div></section>
+</main><footer>© 2026 shanghaiyangming · MIT License<br>无项目中转服务器，不保存翻译历史；翻译原文会发送至用户配置的 API 服务商。当前 Windows 发布文件未做商业代码签名。<br><a href="https://github.com/shanghaiyangming/lighttranslate/blob/main/docs/INTRODUCTION.md">开发者介绍</a> · <a href="https://github.com/shanghaiyangming/lighttranslate/blob/main/SECURITY.md">隐私与安全说明</a></footer>
+</body></html>
