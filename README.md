@@ -27,6 +27,14 @@
 - **桌面小工具**：托盘常驻，可自定义快捷键，开机启动由用户自行开启。
 - **本地加密存储密钥**：使用 Windows DPAPI 当前用户加密，不以明文写入配置或日志。
 
+## 看看怎么用
+
+![轻译 25 秒使用演示](docs/media/LightTranslate-demo.gif)
+
+[观看 / 下载 25 秒 MP4 演示](https://github.com/shanghaiyangming/lighttranslate/releases/download/v1.0.0/LightTranslate-demo-25s.mp4) · [截图与演示说明](docs/DEMO.md)
+
+演示浮窗来自真实程序，阅读选区步骤为场景示意，译文来自本地模拟接口；用于展示交互与排版，不代表真实 API 响应速度。
+
 ## 1 分钟开始
 
 1. 在 [Releases](https://github.com/shanghaiyangming/lighttranslate/releases/latest) 下载 **`LightTranslate-Setup-1.0.0-windows-x64.exe`** 并安装；也可直接运行便携版 **`LightTranslate.exe`**。

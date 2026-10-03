@@ -15,6 +15,10 @@ Requires Windows 10/11 x64, .NET Framework 4.8, network access and an API accoun
 
 ## Features
 
+[25-second video](https://github.com/shanghaiyangming/lighttranslate/releases/download/v1.0.0/LightTranslate-demo-25s.mp4) · [Demo notes and screenshots](DEMO.md)
+
+The demo uses the actual desktop UI with a local mock API; selection steps are illustrative and timings do not measure the real DeepSeek service.
+
 - Global selection shortcut and a compact cursor-adjacent popup.
 - Streaming Chinese translations; English words and short phrases receive IPA, usage, examples and etymology.
 - Common Markdown formatting, copy, cancel, retry and manual paste.
