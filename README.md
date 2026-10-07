@@ -36,12 +36,13 @@
 
 演示浮窗来自真实程序，阅读选区步骤为场景示意，译文来自本地模拟接口；用于展示交互与排版，不代表真实 API 响应速度。
 
-## 1 分钟开始
+## 三步开始使用
 
-1. 在 [Releases](https://github.com/shanghaiyangming/lighttranslate/releases/latest) 下载 **`LightTranslate-Setup-1.0.0-windows-x64.exe`** 并安装；也可直接运行便携版 **`LightTranslate.exe`**。
-2. 首次启动会打开设置，填写自己的 [DeepSeek API Key](https://platform.deepseek.com/api_keys)。
-3. 保留默认接口 **`https://api.deepseek.com`** 和模型 **`deepseek-flash`**，点击保存。
-4. 选中一段可复制文字，按 **Ctrl+Alt+Q**，随后松开按键。
+![轻译三步开始：下载安装 → 填入自己的 Key → 选中文字按快捷键](docs/media/quickstart-3-steps.png)
+
+1. **下载并安装**：[下载安装包](https://github.com/shanghaiyangming/lighttranslate/releases/latest) `LightTranslate-Setup-1.0.0-windows-x64.exe` 双击安装，或直接运行便携版 `LightTranslate.exe`。
+2. **填入自己的 Key**：首次启动会打开设置，填入你的 [DeepSeek API Key](https://platform.deepseek.com/api_keys)，保留默认接口 `https://api.deepseek.com` 和模型 `deepseek-flash`，保存即可。
+3. **开始翻译**：在任意支持复制的应用中划选文字，按 **Ctrl+Alt+Q**，译文就会出现在鼠标旁。
 
 运行环境：**Windows 10/11，64 位，.NET Framework 4.8**，以及可访问 API 的网络。安装包按当前用户安装，无需管理员权限。API 账号需要有可用额度；ChatGPT/DeepSeek 网页账号与 API 额度并不等同。
 
